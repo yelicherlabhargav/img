@@ -1,0 +1,22 @@
+<!Doctype Html>  
+<Html>     
+<Head>      
+<Title>     
+PDF TO IMAGE
+</Title>  
+</Head>  
+<Body>   
+<form action="{{url_for('abc')}}" method="post" > 
+
+<center>
+<h1>Enter File Name: 
+<input type="text" name="Name" size="30">  </h1> 
+<br><br>
+<button type="submit">SUBMIT</button> 
+  </center>
+  <h2>THE IMAGE FOR THE PDF FILE IS</h2>
+  <img src={{imgsrc}} alt="TCP.JPG" style="width:1000px;height:1000px;">
+
+</form>  
+</Body>   
+</Html>  
